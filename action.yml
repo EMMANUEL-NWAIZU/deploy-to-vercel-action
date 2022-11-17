@@ -27,6 +27,10 @@ inputs:
     description: |
       Create a deployment on GitHub (default: true).
     required: false
+  GITHUB_DEPLOYMENT_AUTO_INACTIVE:
+    description: |
+      Should the previous deployments to this environment be automatically inactivated (default: true).
+    required: false
   CREATE_COMMENT:
     description: |
       Create PR comment when deploying (default: true).
