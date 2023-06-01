@@ -1,0 +1,2 @@
+- name: Vercel Deployment Action
+  uses: tomsseisums/deploy-to-vercel-action@v1.10.0-alpha.3
